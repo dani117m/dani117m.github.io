@@ -1,0 +1,53 @@
+body{
+    background: rgb(116, 116, 116);
+}
+.panel{
+    height: 460px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.panel .img{
+    width: 50%;
+
+}
+
+.panel .img img{
+    width: 100%;
+    vertical-align: left;
+}
+.informacion{
+    width: 50%;
+    border-radius: 0 7px 10px 7px;
+    background: white;
+
+}
+
+.informacion-texto{
+    width: 100%;
+
+}
+.informacion-texto h1{
+    margin-left: 35px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+    
+}
+.informacion-texto h2{
+    margin: 0 0 45px 38px;
+    font-size: 13px;
+    
+    text-transform: uppercase;
+}
+.informacion-texto p{
+    height: 125px;
+    margin-left: 38px;
+    
+    line-height: 1.7em;
+}
